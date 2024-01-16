@@ -1,0 +1,13 @@
+1.- git checkout -b feature/test1     #creamos nueva rama y nos anclamos a ella
+
+2.- trabajamos en ella
+
+3.- cuando queremos mergear con develop ---> PULL REQUEST (en GitHub)
+ 
+4.- git checkout develop #comprobamos que estamos en la rama origen
+
+5.- git pull origin develop   #actualizamos la rama origen antes de crear una nueva
+
+ Tras aceptar la pull request, esta rama quedará muerta y nos tocará volver al paso 1.
+ Las ramas se crean por funcionalidad, no por usuario. Al terminar su desarrollo, no se usan más.
+ De esa forma tenemos un punto de seguridad para saber hasta dónde funcionaba correctamente develop.
