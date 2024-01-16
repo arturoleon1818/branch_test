@@ -18,3 +18,5 @@ git add *
 ###hacer commit con los archivos añadidos a staged
 git commit -m ""
 
+###subir cambios de local a remoto(github)
+git push origin <nombre rama>
